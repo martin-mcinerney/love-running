@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -67,7 +69,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -84,10 +87,11 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -114,54 +118,54 @@ h1, h2 {
 
 /* club-ethos */
 
-#club-ethos{
-    height:600px;
-    
+#club-ethos {
+    height: 600px;
+
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
-    float:left;
-    
+    float: left;
+
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
-    float:right;
-    
+    float: right;
+
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
-.left-about-heading{
-    width:60%;
+.left-about-heading {
+    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
-hr{
+hr {
     border: 1px solid #3a3a3a;
     margin: 5px 0;
-    width:100%;
+    width: 100%;
 }
 
-.right-about-heading{
-    width:60%;
+.right-about-heading {
+    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
@@ -169,17 +173,17 @@ hr{
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
-#circle-container{
-    width:300px;
-    height:300px;
-    padding:30px;
-    border-style:solid;
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
@@ -188,6 +192,15 @@ hr{
 
 #circle-cover-bg {
     background: url('../images/ethos-center-image.jpeg') no-repeat center center;
-    height:100%;
+    height: 100%;
     border-radius: 50%;
+}
+
+#times {
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
