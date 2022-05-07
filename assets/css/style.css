@@ -183,7 +183,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/ethos-center-image.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -236,13 +236,48 @@ footer {
     color: #3a3a3a;
 }
 
-#photos{
+/* gallery */
+
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
-column-gap: 0;
+    column-gap: 0;
 }
 
-#photos > img{
-    width:100%;
+#photos > img {
+    width: 100%;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
